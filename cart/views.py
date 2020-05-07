@@ -8,7 +8,7 @@ from .forms import CartAddProductForm
 @require_POST
 def cart_add(request, product_pk):
     cart = Cart(request)
-    product = get_object_or_404(Product, id=product_pk)
+    product = get_object_or_404(Product, pk=product_pk)
     form = CartAddProductForm(request.POST)
 
     if form.is_valid():
