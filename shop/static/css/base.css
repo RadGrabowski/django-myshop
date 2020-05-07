@@ -322,7 +322,8 @@ form div.field {
     width:300px;
     height:22px;
     margin-bottom:10px;
-    padding:6px 12px;
+    padding-top:6px;
+    padding-left: 6px;
     border:0;
     background:#efefef;
     color:#666;
