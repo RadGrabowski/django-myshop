@@ -100,9 +100,19 @@
             <td class="num">${{ item.get_cost }}</td>
         </tr>
     {% endfor %}
-    <tr class="total">
+    <tr>
+        <td colspan="3">Coupon discounts</td>
+        <td class="num" style="color: red">
+            {% if order.coupon %}
+                -{{ order.coupon.discount }}%
+            {% else %}
+                None
+            {% endif %}
+        </td>
+    </tr>
+    <tr class="">
         <td colspan="3">Total</td>
-        <td class="num">${{ order.get_total_cost }}</td>
+        <td class="num">${{ order.get_total_cost|floatformat:2 }}</td>
     </tr>
     </tbody>
 </table>
