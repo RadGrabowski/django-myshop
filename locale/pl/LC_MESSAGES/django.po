@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 00:36+0200\n"
+"POT-Creation-Date: 2020-05-11 00:47+0200\n"
 "PO-Revision-Date: 2020-05-11 00:20+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,6 +115,47 @@ msgstr "płatność/"
 msgid "coupons/"
 msgstr "kupony/"
 
+#: .\payment\templates\payment\canceled.html:4
+msgid "Payment canceled"
+msgstr "Płatność odwołana"
+
+#: .\payment\templates\payment\canceled.html:7
+msgid "Your payment has not been processed"
+msgstr "Twoja płatność nie została przetworzona"
+
+#: .\payment\templates\payment\canceled.html:8
+msgid "There was a problem processing your payment."
+msgstr "Wystąpił problem podczas realizacji Twojej płatności."
+
+#: .\payment\templates\payment\done.html:4
+msgid "Payment successful"
+msgstr "Pomyślna transakcja"
+
+#: .\payment\templates\payment\done.html:7
+msgid "Your payment was successful"
+msgstr "Twoja płatność zakończyła się pomyślnie"
+
+#: .\payment\templates\payment\done.html:8
+msgid "Your payment has been processed successfully."
+msgstr "Twoje zakupy zostały zapłacone."
+
+#: .\payment\templates\payment\process.html:4
+#: .\payment\templates\payment\process.html:7
+msgid "Pay by credit card"
+msgstr "Zapłać kartą płatniczą"
+
+#: .\payment\templates\payment\process.html:9
+msgid "Card Number"
+msgstr "Numer karty"
+
+#: .\payment\templates\payment\process.html:13
+msgid "Expiration Date"
+msgstr "Data ważności"
+
+#: .\payment\templates\payment\process.html:17
+msgid "Pay"
+msgstr "Zapłać"
+
 #: .\payment\urls.py:8
 msgid "process/"
 msgstr "proces/"
@@ -133,7 +174,7 @@ msgstr "Mój sklep"
 
 #: .\shop\templates\shop\base.html:17
 msgid "Language"
-msgstr "Polski"
+msgstr "Język"
 
 #: .\shop\templates\shop\base.html:34
 msgid "Your cart"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 00:36+0200\n"
+"POT-Creation-Date: 2020-05-11 00:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,6 +108,47 @@ msgstr ""
 
 #: .\myshop\urls.py:28
 msgid "coupons/"
+msgstr ""
+
+#: .\payment\templates\payment\canceled.html:4
+msgid "Payment canceled"
+msgstr ""
+
+#: .\payment\templates\payment\canceled.html:7
+msgid "Your payment has not been processed"
+msgstr ""
+
+#: .\payment\templates\payment\canceled.html:8
+msgid "There was a problem processing your payment."
+msgstr ""
+
+#: .\payment\templates\payment\done.html:4
+msgid "Payment successful"
+msgstr ""
+
+#: .\payment\templates\payment\done.html:7
+msgid "Your payment was successful"
+msgstr ""
+
+#: .\payment\templates\payment\done.html:8
+msgid "Your payment has been processed successfully."
+msgstr ""
+
+#: .\payment\templates\payment\process.html:4
+#: .\payment\templates\payment\process.html:7
+msgid "Pay by credit card"
+msgstr ""
+
+#: .\payment\templates\payment\process.html:9
+msgid "Card Number"
+msgstr ""
+
+#: .\payment\templates\payment\process.html:13
+msgid "Expiration Date"
+msgstr ""
+
+#: .\payment\templates\payment\process.html:17
+msgid "Pay"
 msgstr ""
 
 #: .\payment\urls.py:8
