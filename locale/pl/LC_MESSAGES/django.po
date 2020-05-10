@@ -8,15 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 21:34+0200\n"
-"PO-Revision-Date: 2020-05-10 23:10+0000\n"
+"POT-Creation-Date: 2020-05-11 00:36+0200\n"
+"PO-Revision-Date: 2020-05-11 00:20+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.9.4\n"
 
 #: .\cart\forms.py:8 .\cart\templates\cart\detail.html:14
@@ -85,56 +87,59 @@ msgstr "Zamawiam i płacę"
 msgid "Coupon"
 msgstr "Kupon"
 
-#: .\myshop\settings.py:113
+#: .\myshop\settings.py:115
 msgid "English"
 msgstr "angielski"
 
-#: .\myshop\settings.py:114
+#: .\myshop\settings.py:116
 msgid "Polish"
 msgstr "Polski"
 
 #: .\myshop\urls.py:24
 msgid "admin/"
-msgstr "admin"
+msgstr "admin/"
 
 #: .\myshop\urls.py:25
 msgid "cart/"
-msgstr "koszyk"
+msgstr "koszyk/"
 
 #: .\myshop\urls.py:26
 msgid "orders/"
-msgstr "zamówienia"
+msgstr "zamówienia/"
 
 #: .\myshop\urls.py:27
 msgid "payment/"
-msgstr "płatność"
+msgstr "płatność/"
 
 #: .\myshop\urls.py:28
-#| msgid "Coupon"
 msgid "coupons/"
-msgstr "kupony"
+msgstr "kupony/"
 
 #: .\payment\urls.py:8
 msgid "process/"
-msgstr "proces"
+msgstr "proces/"
 
 #: .\payment\urls.py:9
 msgid "done/"
-msgstr "gotowe"
+msgstr "gotowe/"
 
 #: .\payment\urls.py:10
 msgid "canceled/"
-msgstr "odmowa"
+msgstr "odmowa/"
 
 #: .\shop\templates\shop\base.html:7 .\shop\templates\shop\base.html:12
 msgid "My shop"
 msgstr "Mój sklep"
 
-#: .\shop\templates\shop\base.html:18
+#: .\shop\templates\shop\base.html:17
+msgid "Language"
+msgstr "Polski"
+
+#: .\shop\templates\shop\base.html:34
 msgid "Your cart"
 msgstr "Twój koszyk"
 
-#: .\shop\templates\shop\base.html:20
+#: .\shop\templates\shop\base.html:36
 #, python-format
 msgid ""
 "\n"
@@ -169,7 +174,7 @@ msgstr[5] ""
 "                        %(items)s produktów, $%(total)s\n"
 "                    "
 
-#: .\shop\templates\shop\base.html:27
+#: .\shop\templates\shop\base.html:43
 msgid "Your cart is empty."
 msgstr "Twój koszyk jest pusty."
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 21:34+0200\n"
+"POT-Creation-Date: 2020-05-11 00:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: .\orders\forms.py:8
+msgid "Postal code"
+msgstr "Kod pocztowy"
 
 #: .\orders\models.py:10
 msgid "first name"
@@ -46,11 +50,11 @@ msgstr "miejscowość"
 
 #: .\orders\templates\orders\order\create.html:4
 msgid "Checkout"
-msgstr ""
+msgstr "Kasa"
 
 #: .\orders\templates\orders\order\create.html:9
 msgid "Your order"
-msgstr ""
+msgstr "Twoje zamówienie"
 
 #: .\orders\templates\orders\order\create.html:19
 #, python-format
@@ -59,14 +63,17 @@ msgid ""
 "                        \"%(code)s\" (%(discount)s%% off)\n"
 "                    "
 msgstr ""
+"\n"
+"                        \"%(code)s\" (%(discount)s%% zniżki)\n"
+"                    "
 
 #: .\orders\templates\orders\order\create.html:26
 msgid "Total"
-msgstr ""
+msgstr "W sumie"
 
 #: .\orders\templates\orders\order\create.html:30
 msgid "Place order"
-msgstr ""
+msgstr "Zamów"
 
 #: .\orders\templates\orders\order\created.html:7
 #, python-format
@@ -76,7 +83,11 @@ msgid ""
 "<strong>%(order_id)s</strong>.</p>\n"
 "    "
 msgstr ""
+"\n"
+"        <p>Twoje zamówienie zakończyło się pomyślnie. Twój numer zamówienia "
+"to <strong>%(order_id)s</strong>.</p>\n"
+"    "
 
 #: .\orders\urls.py:8
 msgid "create/"
-msgstr ""
+msgstr "utwórz/"

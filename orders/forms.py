@@ -1,10 +1,11 @@
 from django import forms
 from localflavor.pl.forms import PLPostalCodeField
+from django.utils.translation import gettext_lazy as _
 from .models import Order
 
 
 class OrderCreateForm(forms.ModelForm):
-    postal_code = PLPostalCodeField()
+    postal_code = PLPostalCodeField(label=_('Postal code'))
 
     class Meta:
         model = Order
